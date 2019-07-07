@@ -410,7 +410,7 @@ public class Filemgr {
 			} else {
 				if(filelist.length == offsetlist.length){
 					if(verbose) System.out.printf("Loading bin file(s)\n");
-					dfuimage = new DfuImage("BrainCo_Focus1", filelist, offsetlist);
+					dfuimage = new DfuImage(ProjectName, filelist, offsetlist);
 				} else
 					return;
 			}
